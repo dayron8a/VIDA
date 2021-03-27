@@ -1,140 +1,189 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIDA Tramites y Servicios</title>
-    <link rel="icon" type="image/png" href="imagenes/favicon.png"  />
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-   <header class="header">
-     <div class="container">
-       <figure class="logo">
-         <img src="imagenes/vidalogo.png" height="100" alt="logo de https://vidatramites.com" />
-      </figure>
-      <nav class="menu">
-       <ol>
-         <li>
-           <a class="link" href="#Portafolio">Portafolio</a>
-         </li>
-         <li>
-           <a class="link" href="#trabajos">Experiencia</a>
-         </li>
-         <li>
-           <a class="link" href="#contacto">Trabajemos juntos</a>
-         </li>
-       </ol>
-      </nav>
-     </div>
-   </header>
-   <section class="hero">
-     <div class="container">
-       <h1>
-         <strong>VIDA</strong> <br/> Tramites, Servicios inmobiliarios, y asesorias jurídicas
-       </h1>
-         <img class="hero-image" src="imagenes/justice.jpg" width="500" height="300" alt="imagen principal del sitio">
-     </div>
-   </section>
-   <section id="Portafolio" class="portfolio">
-     <div class="container">
-      <h2>Portafolio</h2>
-     <article class="project">
-       <div class="project-details">
-         <h1><strong>Nuestros servicios</strong></h1>
-            <ul>
-              <h3> <li>Tutelas</li>
-              <li>Pagares</li>
-              <li>Compraventa</li>
-              <li>Derechos de Petición</li>
-              <li>Contratos de Arrendamiento</li>
-              <li>Certificados de libertad y tradición</li>
-              <li>Procesos Jurídicos</li>
-              <li>Asesorias y más...</li> </h3>
-            </ul>
-         <p class="project-description">Contactenos para tener el gusto de atenderlo.</p>
-       </div>
-       <figure class="project-imageContainer">
-        <img class="project-image" width="500" src="imagenes/martillo.jpg" alt="proyecto del curso de React Native">
-       </figure>
-      </article>
+  <head>
+    <meta charset="UTF-8" />
+    <title>VIDA Inmobiliaria y Juridica</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"/> -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <style>
+      @media screen and (max-width: 768px) {
+        body {
+          border: 10px solid blue;
+        }
+      }
+    </style> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="images/vidalogo.png" height="80" alt="logo de https://vidatramites.com" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Somos <strong>VIDA</strong> <br/> Tramites <strong>Servicios Inmobiliarios</strong> & <br> Asesorias<strong> Juridícas</strong>
+        </h1>
+        <img class="hero-image" src="images/martillo.jpg" width="500" height="300" alt="imagen principal del sitio">
+      </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+        <h2>Portafolio</h2>
       <article class="project">
         <div class="project-details">
-          <h1><strong>Nuestra Experiencia</strong></h1>
-          <p class="project-description">Contamos con una amplia experiencia para ayudarte en los procedimientos legales, asesoramiento y consejo jurídico que necesites. No dude en contactarnos, colaboramos en defensa de la Justicia</p>
+          <h3 class="project-title">Nuestros Servicios</h3>
+          <ul>
+            <h3> <li>Tutelas</li>
+            <li>Pagares</li>
+            <li>Compraventa</li>
+            <li>Derechos de Petición</li>
+            <li>Contratos de Arrendamiento</li>
+            <li>Certificados de libertad y tradición</li>
+            <li>Procesos Jurídicos</li>
+            <li>Asesorias y más...</li> </h3>
+          </ul>
+          <p class="project-description">Contactenos para tener el gusto de atenderlo</p>
         </div>
         <figure class="project-imageContainer">
-         <img class="project-image" width="500" src="imagenes/lapicero.jpg" alt="proyecto del curso de React Native">
+          <img class="project-image" width="500" src="images/justice.jpg" alt="imagen de justice">
         </figure>
-       </article>
-     </div>
-   </section>
-   <div class="container">
-     <h2 class="event-list-title">Artículos de interes</h2>
-   </div>
-   <section id="eventos" class="event-list">
-     <div class="container">
-       <article class="event">
-         <figure class="event-imageContainer">
-           <img class="event-image" src="imagenes/contrato.jpg" width="500"/>
-         </figure>
-         <div class="event-detail">
-           <h3 class="event-tittle">8 cualidades que te pueden hacer un excelente abogado</h3>
-           <p class="event-description">1) Disfrutar de las discusiones con buenos argumentos <br/>
-            2) Negociar es una de sus actividades preferidas<br/>
-            3) La persuasión es una habilidad que nunca falta<br/>
-            4) Crear una buena coraza emocional<br/>
-            5) Ser capaz de llevar una excelente organización<br/>
-            6) La persistencia es otra de las grandes virtudes<br/>
-            7) El éxito también dependerá de la paciencia<br/>
-            8) Tener cierta dosis de agresividad bien entendidas<br/></p>
-           <a class="event-url" href="https://www.universia.net/mx/actualidad/empleo/8-cualidades-que-te-pueden-hacer-excelente-abogado-1119783.html" target="_blank">cualidades</a>
-         </div>
-       </article>
-       </article>
-       <article class="event">
-        <figure class="event-imageContainer">
-          <img class="event-image" src="imagenes/firma.jpg" width="500"/>
-        </figure>
-        <div class="event-detail">
-          <h3 class="event-tittle">¿Qué es un profesional en derecho?</h3>
-          <p class="event-description">Es un confidente. Fiel, seguro y que inspira confianza en quien recurre a él. Los abogados son más que técnicos. Asesoran, aconsejan y realizan los intereses de su cliente libremente y de forma independiente.<br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/></p>
-          <a class="event-url" href="" target="_blank">Profesional</a>
-        </div>
       </article>
-     </div>
-   </section>
-   <section id="contacto" class="contact">
-     <div class="container">
-       <form action="/suscripcion/" class="form-email">
-        <h3>Direccion: Cra 50 N° 49-65 Oficina 302 Edificio Los Profesionales, Guarne, Antioquia. Celular: 305 338 9891 // Telefono: 5517407</h3>
-        <input type="text" placeholder="Déjame tu email" id="email">
-        <button>Enviar</button>
-       </form>
-       <div class="social">
-         <a href="https://twitter.com" class="social-link twitter"></a>
-         <a href="https://www.facebook.com/vida.tramites.96"class="social-link facebook"></a>
-         <a href="https://www.instagram.com/vida.tramites"class="social-link instagram"></a>
-       </div>
-     </div> 
-   </section> 
-   <footer class="footer">
-     <div class="container">
-       <div>
-         <p>VIDA tramites y servicios inmobiliarios 2020 <img src="imagenes/favicon.png" width="50" alt="VIDA"></p>
-       </div> 
-       <div>
-         <p>
-           Designe with <\3 by <a href="https://twitter.com/dayron8a">@dayron8a</a>
-         </p>
-     </div>
-    </div> 
-   </footer> 
-</body>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Nuestra Experiencia</h3>
+            
+            <p class="project-description">Contamos con una amplia experiencia para ayudarte en los procedimientos legales, asesoramiento y consejo jurídico que necesites. No dude en contactarnos, colaboramos en defensa de la Justicia</p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="500" src="images/lapicero.jpg" alt="imagen de firma de contrato">
+          </figure>
+        </article>
+      </div>
+
+    </section>
+    <div class="container">
+      <h2 class="event-list-title">Articulos de Interes</h2>
+    </div>
+
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/contrato.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">8 cualidades que te pueden hacer un excelente abogado</h3>
+            <p class="event-description">1) Disfrutar de las discusiones con buenos argumentos <br/>
+              2) Negociar es una de sus actividades preferidas<br/>
+              3) La persuasión es una habilidad que nunca falta<br/>
+              4) Crear una buena coraza emocional<br/>
+              5) Ser capaz de llevar una excelente organización<br/>
+              6) La persistencia es otra de las grandes virtudes<br/>
+              7) El éxito también dependerá de la paciencia<br/>
+              8) Tener cierta dosis de agresividad bien entendidas<br/></p>.</p>
+            <a class="event-url" href="https://www.universia.net/mx/actualidad/empleo/8-cualidades-que-te-pueden-hacer-excelente-abogado-1119783.html" target="_blank">Ver Plática</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <div class="flexible-video">
+              <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/KBe9LhFhi5A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <!-- <img class="event-image" src="images/platzi-conf.jpg" width="500" /> -->
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Conceptos basicos de Derecho</h3>
+            <p class="event-description">En esta seccion aprenderas conceptos basicos sobre el derecho.</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=KBe9LhFhi5A&ab_channel=BLOGGID" target="_blank">Ver video</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/firma.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">¿Qué es un profesional en derecho?</h3>
+            <p class="event-description">Es un confidente. Fiel, seguro y que inspira confianza en quien recurre a él. Los abogados son más que técnicos. Asesoran, aconsejan y realizan los intereses de su cliente libremente y de forma independiente.</p>
+            <a class="event-url" href="" target="_blank">Ver</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>Direccion: Cra 50 N° 49-65 Oficina 302 Edificio Los Profesionales, Guarne, Antioquia. Celular: 305 338 9891 // Telefono: 5517407 // e-mail: vida.tramites@gmail.com</h3>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com" class="social-link twitter"></a>
+          <a href="https://www.facebook.com/vida.tramites.96" class="social-link facebook"></a>
+          <a href="https://github.com" class="social-link github"></a>
+          <a href="https://www.instagram.com/vida.tramites" class="social-link instagram"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>VIDA Tramites, servicios inmobiliarios y asesorias jurídicas <img src="images/vidalogo.png" width="80" alt="platzi"></p>
+        </div>
+        <div>
+          <p>
+            Designed with ❤️ by <a href="https://twitter.com/dayron8a">@dayron8a</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // console.log('Hola mundo! es mi primera linea en JS');
+      const ipad = window.matchMedia('screen and (max-width: 767px)')
+      const menu = document.querySelector('.menu');
+      // console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      // console.log(burgerButton);
+
+
+      ipad.addListener(validation)
+
+      function validation(event) {
+        if (event.matches) {
+          burgerButton.addEventListener('click', hideShow)
+        } else {
+          burgerButton.removeEventListener('click', hideShow)
+        }
+      }
+      validation(ipad);
+
+
+      function hideShow() {
+        if (menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+        } else {
+          menu.classList.add('is-active');
+        }
+      }
+    </script>
+  </body>
 </html>
